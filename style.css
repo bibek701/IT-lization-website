@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sigmar&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-header-wrap {
+  background-color: #0a0a73;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 0;
+  color: #e2e2e2;
+}
+
+.top-header i {
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  padding: .25rem;
+}
+
+.top-header-group-1 {
+  display: flex;
+}
+
+.email {
+  margin-right: 1rem;
+}
+
+.top-header-group-2 {
+  display: flex;
+}
+
+.mid-header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 7.5rem;
+}
+
+.phone-group,
+.email-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid-header-wrap .icon {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  color: #ececec;
+  background-color: #b32323;
+  padding: 1rem;
+}
+
+
+/* Navigation Bar */
+nav {
+  background-color: #0a0a73;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: #c2c2c2;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+
+
+/* Home Section */
+
+
+/* home-page-content */
+
+.home-page-content {
+  background-image: url(img/download.png);
+  padding: 149px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 2px solid black;
+
+}
+
+
+
+
+.home-page-content h1 {
+
+  color: rgb(210, 196, 196);
+  margin: 5px;
+
+
+}
+
+.home-page-content h2 {
+  color: #0a0a73;
+
+}
+
+.home-page-content p {
+  color: rgb(163, 73, 63);
+}
+
+.home-page-content .box {
+  width: 500px;
+  background: rgb(226, 210, 210);
+  padding: 30px;
+
+
+}
+
+
+
+/* home-page-content2 */
+.home-page-content2 {
+  padding: 100px;
+  margin: 5px;
+  background-color: #f2f2f2;
+}
+
+.home-page-content2 h1 {
+  margin-bottom: 50px;
+  color: #0a0a73;
+
+}
+
+.home-page-content2 p {
+  margin-bottom: 50px;
+
+}
+
+.home-page-content2 a {
+  border-style: solid;
+  color: #0a0a73;
+  border-radius: 2px;
+
+
+}
+
+.home-page-content2 a:hover {
+  background-color: rgb(124, 71, 80);
+  color: white;
+}
+
+
+
+
+/* home-page-content3 */
+.home-page-content3 {
+  text-align: center;
+  color: white;
+  background-color: rgba(9, 193, 213, 0.974);
+  padding: 149px;
+  margin-bottom: 50px;
+
+  border: 3px solid black;
+  padding: 150px;
+  background-size: 100% 100%;
+  border-radius: 25px;
+  margin: 25px;
+
+}
+
+.home-page-content3 h1 {
+  margin-bottom: 50px;
+
+}
+
+.home-page-content3 a {
+
+  border-style: solid;
+  color: #0a0a73;
+  border-radius: 2px;
+}
+
+.home-page-content3 p {
+  margin-bottom: 50px;
+
+}
+
+
+
+/* home-page-content4 */
+.home-page-content4 {
+  background-image: url(img/join-the-team.jpg);
+  height: 370px;
+  width: 600px;
+  margin: 190px;
+
+}
+
+
+
+/* home-page-content5 */
+.home-page-content5 {
+  background-image: url(img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 3px solid black;
+  padding: 150px;
+  background-size: 100% 100%;
+
+  margin: 25px;
+
+}
+
+.home-page-content5 h1 {
+  margin-bottom: 50px;
+  color: white;
+
+}
+
+
+.home-page-content3 a {
+  border-style: solid;
+  color: #0a0a73;
+  border-radius: 2px;
+
+}
+
+.home-page-content5 p {
+  margin-bottom: 20px;
+
+
+}
+
+
+.home-page-content5 button {}
+
+/* Home Section Ends */
+
+
+
+/* FOOTER */
+
+footer {
+  background: rgb(90, 89, 89);
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+
+footer p {
+  color: white;
+  padding: 30px;
+
+
+
+}
+
+footer h1 {
+  color: white;
+  padding: 30px;
+
+}
+
+/* FOOTER ENDS */
+
+
+/* About-us start */
+.about-page-content1 {
+  justify-content: center;
+  text-align: center;
+  padding: 160px;
+  background-color: #0a0a73;
+  background-image: url;
+
+
+}
+
+.about-page-content1 ::after {}
+
+
+
+.about-page-content1 h1 {
+  margin-bottom: 30px;
+  font-size: 500%;
+  color: rgb(204, 195, 195);
+  font-weight: lighter;
+
+
+}
+
+
+.about-page-content1 p {
+  font-style: italic;
+  color: rgb(163, 73, 63);
+
+
+}
+
+
+
+.about-page-content2 {
+  color: rgb(20, 20, 20);
+  padding: 140px;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  padding: 150px;
+  background-size: 100% 100%;
+  margin: 25px;
+}
+
+
+.about-page-content2p {
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.about-page-content2 ul li {
+  list-style: square;
+}
+
+
+.about-page-content2 h1 {
+  color: #0a0a73;
+  margin-bottom: 30px;
+}
+
+.about-page-content2 p {
+  margin-bottom: 30px;
+  font-style: initial;
+}
+
+.about-page-content2 ul {
+  margin: ;
+}
+
+
+
+
+
+.about-page-content3 {
+  text-align: center;
+  padding: 100px;
+  background-color: #d7d5d5f0;
+
+}
+
+
+.about-page-content3 h1 {
+  color: #0a0a73;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.about-page-content3 h2 {
+  margin-bottom: 15px;
+  font-size: larger;
+  font-weight: 100;
+  font-style: initial;
+}
+
+
+.about-page-content3 .box {
+  display: flex;
+}
+
+
+.about-page-content3 .box p i {
+  color: palevioletred;
+  font-size: 400%;
+  width: 300px;
+  padding: 55px;
+
+}
+
+/* ABOUT US PAGE ENDS */
+
+
+
+
+
+/* SERVICE PAGE STARTS */
+.services-page-content {
+  text-align: center;
+  padding: 160px;
+  background-color: #0a0a73;
+  background-image: url(img/bg4.avif);
+  opacity: 0.7;
+}
+
+.services-page-content h1 {
+  margin-bottom: 30px;
+  font-size: 500%;
+  color: rgb(14, 10, 10);
+  font-weight: lighter;
+}
+
+.services-page-content p {
+  font-style: italic;
+  color: rgb(163, 73, 63);
+}
+
+
+
+
+
+.services-page-content2 {
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  background-color: #f2f2f2f0;
+  color: rgb(20, 20, 20);
+  padding: 140px;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  padding: 150px;
+  background-size: 100% 100%;
+  margin: 25px;
+
+}
+
+.services-page-content2 h1 {
+  color: rgb(78, 78, 158);
+  margin-bottom: 30px;
+}
+
+
+.services-page-content2 p {
+  margin-bottom: 30px;
+}
+
+.services-page-content2 h2 {
+  margin-bottom: 30px;
+  color: palevioletred;
+}
+
+
+
+
+.services-page-content3 {
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  background-color: #f2f2f2f0;
+
+}
+
+.services-page-content3 h1 {
+  margin-bottom: 30px;
+  color: rgb(78, 78, 158);
+
+}
+
+.services-page-content3 p {
+  margin-bottom: 25px;
+}
+
+
+/* SERVICE PAGE ENDS */
+
+
+
+/* CONTACT PAGE START */
+.contact-container {
+  background-color: #f2f2f2f0;
+
+}
+
+.Contact-page-section1 {
+  text-align: center;
+  padding: 100px;
+
+}
+
+
+.Contact-page-section1 i {
+  color: rgb(250, 198, 12);
+}
+
+.Contact-page-section1 h1 {
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-weight: 100;
+  color: white;
+}
+
+
+.Contact-page-section1 .main-box p {
+  color: rgb(215, 204, 180);
+}
+
+.Contact-page-section1 .main-box {
+  justify-content: center;
+  display: flex;
+  gap: 3rem;
+
+}
+
+
+.Contact-page-section1 .main-box .box {
+  background-color: rgba(16, 1, 52, 0.934);
+  padding: 40px 20px;
+  min-width: 20rem;
+
+}
+
+.Contact-page-section1 .main-box h1 {
+  font-size: 25px;
+
+}
+
+.Contact-page-section1 .main-box h1 p {
+  color: palevioletred;
+  font-size: 400%;
+}
+
+
+
+.Contact-page-section2 {
+  background-color: #f2f2f2;
+
+}
+
+
+.Contact-page-section2 .box2 {
+  display: flex;
+  gap: 290px;
+  margin: 100px;
+
+}
+
+
+.Contact-page-section2 h1 {
+  margin-bottom: 45px;
+  padding: 50px;
+}
+
+
+.Contact-page-section2 .box3 input {
+  width: 10rem;
+  height: 3rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.Contact-page-section2 .box3 input:hover {
+  background-color: rgb(23, 23, 46);
+  color: white;
+}
+
+.Contact-page-section3 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  background-color: #0a0a73;
+  padding: 50px;
+}
+
+.Contact-page-section3 img {
+  margin-top: 20px;
+  opacity: 0.75;
+}
+
+
+.Contact-page-section3 .contact-info {}
+
+.Contact-page-section3 h1 {
+  color: white;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.Contact-page-section3 .contact-info ul li a {
+  color: rgb(206, 196, 196);
+}
+
+.Contact-page-section3 .contact-info ul li i {
+  color: rgb(119, 31, 31);
+
+  border-style: groove;
+  border: 3.9px solid #c2c2c2;
+  border-radius: 80%;
+  padding: .25rem;
+}
+
+.Contact-page-section3 .contact-info ul li i:hover {
+  background-color: black;
+}
+
+
+
+.Contact-page-section3 .nav-info {}
+
+
+.Contact-page-section3 .nav-info ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Contact-page-section3 .nav-info ul li:hover {
+  background-color: rgb(132, 125, 125);
+  border-radius: 5px;
+  width: auto;
+}
+
+
+
+.Contact-page-section3 .nav-info ul li a {
+
+  color: rgb(206, 196, 196);
+}
+
+
+
+
+.Contact-page-section3 .follow-info {
+  text-align: center;
+}
+
+
+.Contact-page-section3 .follow-info a {}
+
+.Contact-page-section3 .follow-info a i:hover {
+  background-color: rgb(14, 14, 162);
+  color: rgb(119, 31, 31);
+  border-style: groove;
+  border: 3.9px solid #c2c2c2;
+  border-radius: 80%;
+  padding: 2rem;
+
+}
+
+
+
+/* CONTACT PAGE ENDS */
